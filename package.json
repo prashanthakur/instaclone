@@ -2,6 +2,9 @@
   "name": "instaserver",
   "version": "1.0.0",
   "description": "server of ig clone",
+  "engines": {
+    "node": "14.16.1"
+  },
   "main": "app.js",
   "scripts": {
    "start":"node app.js",
