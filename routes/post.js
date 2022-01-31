@@ -4,10 +4,6 @@ const mongoose = require('mongoose')
 const requireLogin = require('../middleware/requireLogin')
 const Post = mongoose.model("Post")
 
-router.get('/',(req,res)=>{
-    res.send("working fine")
-}
-
 
 
 router.get('/allpost',requireLogin,(req,res)=>{
